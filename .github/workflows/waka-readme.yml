@@ -2,7 +2,6 @@ name: Waka Readme
 
 on:
   schedule:
-    # 매일 아침 6시에 실행 (UTC 기준, 한국 시간 기준으로 6시)
     - cron: '0 21 * * *'
   workflow_dispatch:
 
@@ -25,4 +24,6 @@ jobs:
           SHOW_LINES_OF_CODE: "False"
           SHOW_PROFILE_VIEWS: "False"
           SHOW_SHORT_INFO: "False"
-          LOCALE: "ko"
+          CUSTOM_COLORS: "true"
+          LOCALE: "en"
+
